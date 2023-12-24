@@ -1,4 +1,4 @@
-module tb_carry_select_adder;
+module jy_tb_carry_select_adder;
     reg [7:0] din_a;
     reg [7:0] din_b;
     reg cin;
@@ -6,7 +6,7 @@ module tb_carry_select_adder;
     wire cout;
     integer i, j, error;
 
-    carry_select_adder u_carry_select_adder(
+    jy_carry_select_adder u_carry_select_adder(
         .din_a(din_a),
         .din_b(din_b),
         .cin(cin),
